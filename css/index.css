@@ -49,6 +49,7 @@ table {
 
 * {
     box-sizing: border-box;
+    border: 2px, solid grey;
 }
 
 html, body {
@@ -70,6 +71,33 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+
+/* styling starts here */
+
+/*header styling, this header will be used for both pages*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav, img{
+    padding:1.5% 0;
+}
+nav, a{
+    padding-top: 2.5%;
+    text-decoration: none;
+    color: black;
+}
+a:hover{
+    color:red;
+}
+.headerImg{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+/*end header styles*/
 
 .top-content {
     display: flex;
@@ -104,12 +132,42 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.box1{
+    background-color: teal;
+}
+.box2{
+    background-color:gold;
+}
+.box3{
+    background-color:cadetblue;
+}
+.box4{
+    background-color: coral;
+}
+.box5{
+    background-color:crimson;
+}
+.box6{
+    background-color:forestgreen;
+}
+.box7{
+    background-color: darkorchid;
+}
+.box8{
+    background-color:hotpink;
+}
+.box9{
+    background-color: indigo;
+}
+.box10{
+    background-color: dodgerblue;
 }
 
 .bottom-content {
@@ -126,6 +184,7 @@ p {
     padding-right: 0;
 }
 
+/*this footer will be used for both pages*/
 footer {
     width: 100%;
     background: black;
@@ -144,3 +203,55 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+/* finished home page*/
+
+
+/* About page begins */
+
+/* for header styles refer to home page header*/
+
+.about-text{
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.middle-section1{ /*first row of images*/
+    display: flex;
+    justify-content: space-around;
+}
+
+/*sytling for all the buttons*/
+button{ 
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 10px;
+    margin:15px 0;
+    padding:8px 30px;
+    transition: 1s;
+}
+button:hover{
+    color:white;
+    background-color: black;
+}
+
+.middle-section2{ /*second row of images*/
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery{ /*to style the boxes that contain, image, text, and button, border used to separte boxes*/
+    border-bottom:1px dashed black;
+}
+
+.work-together{ /*let's work together text*/
+    margin: 50px 10px;
+    padding-left: 10px;
+}
+
+/*footer included above in home footer*/
