@@ -78,7 +78,7 @@ p {
 
 nav{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 nav, img{
@@ -204,3 +204,50 @@ footer nav a {
 }
 
 /* finished home page*/
+
+
+/* About page begins */
+
+/* for header styles refer to home page header*/
+
+.about-text{
+    border-bottom: 1px dashed black;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.middle-section1{
+    display: flex;
+    justify-content: space-around;
+}
+
+button{
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border:1px solid black;
+    border-radius: 10px;
+    margin:15px 0;
+    padding:8px 30px;
+    transition: 1s;
+}
+button:hover{
+    color:white;
+    background-color: black;
+}
+
+.middle-section2{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.gallery{
+    border-bottom:1px dashed black;
+}
+
+.work-together{
+    margin: 50px 10px;
+    padding-left: 10px;
+}
