@@ -74,7 +74,7 @@ p {
 
 /* styling starts here */
 
-/*header styling*/
+/*header styling, this header will be used for both pages*/
 
 nav{
     display: flex;
@@ -184,6 +184,7 @@ a:hover{
     padding-right: 0;
 }
 
+/*this footer will be used for both pages*/
 footer {
     width: 100%;
     background: black;
@@ -217,12 +218,13 @@ footer nav a {
     padding-left: 20px;
 }
 
-.middle-section1{
+.middle-section1{ /*first row of images*/
     display: flex;
     justify-content: space-around;
 }
 
-button{
+/*sytling for all the buttons*/
+button{ 
     text-decoration: none;
     color: black;
     background-color: white;
@@ -237,17 +239,19 @@ button:hover{
     background-color: black;
 }
 
-.middle-section2{
+.middle-section2{ /*second row of images*/
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
 }
 
-.gallery{
+.gallery{ /*to style the boxes that contain, image, text, and button, border used to separte boxes*/
     border-bottom:1px dashed black;
 }
 
-.work-together{
+.work-together{ /*let's work together text*/
     margin: 50px 10px;
     padding-left: 10px;
 }
+
+/*footer included above in home footer*/
